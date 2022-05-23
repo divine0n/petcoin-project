@@ -99,9 +99,9 @@ const MAX_RPC_CONTENT_LENGTH                          1048576 // 1 MB
 
 
 //TODO This port will be used by the daemon to establish connections with p2p network
-const int      P2P_DEFAULT_PORT                              = ;
+const int      P2P_DEFAULT_PORT                              = 61500;
 //TODO This port will be used by the daemon to interact with simlewallet
-const int      RPC_DEFAULT_PORT                              = ;
+const int      RPC_DEFAULT_PORT                              = 61500;
 
 const P2P_DEFAULT_CONNECTIONS_COUNT                   12
 const P2P_DEFAULT_HANDSHAKE_INTERVAL                  60           //secondes
